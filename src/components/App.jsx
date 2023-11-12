@@ -15,7 +15,7 @@ const App = () => {
   };
 
   const handleAddContact = contact => {
-    console.log(contact);
+   
     const item = contacts.find(
       item => item.name.toLowerCase() === contact.name.toLowerCase()
     );
